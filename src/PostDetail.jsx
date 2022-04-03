@@ -35,7 +35,7 @@ export function PostDetail({ post }) {
     return (
       <>
         <p>Opps, something went wrong</p>
-        <p>{error}</p>
+        <p>{error.toString()}</p>
       </>
     );
   }
