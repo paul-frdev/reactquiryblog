@@ -33,7 +33,7 @@ export function Posts() {
     }
   );
 
-  if (isFetching) return <h3>Fetching in progress...</h3>;
+  if (isLoading) return <h3>Fetching in progress...</h3>;
   if (isError)
     return (
       <>
